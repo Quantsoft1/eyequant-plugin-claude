@@ -2,14 +2,14 @@
   "name": "eyequant",
   "displayName": "EyeQuant",
   "icon": "./icon.png",
-  "version": "1.0.0",
-  "description": "Consulta señales cuantitativas y administra watchlists de EyeQuant mediante su MCP remoto.",
+  "version": "1.0.1",
+  "description": "Discover quantitative trend signals from EyeQuant AI across stocks, ETFs, crypto, and forex. Explore current and historical signals, track the assets you care about, and manage your watchlists. EyeQuant models are validated using out-of-sample data. For informational and research purposes only; not investment advice or a recommendation to buy, sell, or hold any financial asset.",
   "author": {
-    "name": "EyeQuant",
+    "name": "QuantSoft",
     "url": "https://www.eyequant.ai"
   },
   "homepage": "https://www.eyequant.ai",
   "privacyPolicyUrl": "https://www.eyequant.ai/privacy",
-  "repository": "https://github.com/cristaros/eyequant-plugin-claude",
+  "repository": "https://github.com/Quantsoft1/eyequant-plugin-claude",
   "keywords": ["eyequant", "mcp", "signals", "watchlists"]
 }

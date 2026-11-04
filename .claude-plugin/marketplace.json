@@ -1,14 +1,14 @@
 {
-  "name": "eyequant-marketplace",
-  "description": "Integraciones de EyeQuant para Claude Code",
+  "name": "EyeQuant",
+  "description": "EyeQuant plugin catalog for Claude Code.",
   "owner": {
-    "name": "cristaros"
+    "name": "QuantSoft"
   },
   "plugins": [
     {
       "name": "eyequant",
-      "source": "./",
-      "description": "Consulta señales cuantitativas y administra watchlists de EyeQuant"
+      "displayName": "EyeQuant",
+      "source": "./"
     }
   ]
 }

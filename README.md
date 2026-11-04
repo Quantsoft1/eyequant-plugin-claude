@@ -1,39 +1,36 @@
-# Plugin EyeQuant para Claude Code
+# EyeQuant for Claude
 
-Este plugin conecta Claude Code con el MCP remoto de EyeQuant y añade una habilidad para consultar señales, historial, perfil y watchlists. El servidor y sus herramientas están en `https://www.eyequant.ai/mcp`; no hay procesos locales ni claves dentro del plugin.
+Discover quantitative trend signals from EyeQuant AI across stocks, ETFs, crypto, and forex. Explore current and historical signals, track the assets you care about, and manage your watchlists. EyeQuant models are validated using out-of-sample data. For informational and research purposes only; not investment advice or a recommendation to buy, sell, or hold any financial asset.
 
-## Probar el plugin localmente
+This plugin connects Claude to EyeQuant's remote MCP server at `https://www.eyequant.ai/mcp`. It includes a skill for interpreting signals, reviewing history, checking account access, and managing watchlists. The plugin contains no local server or credentials.
 
-Desde la raíz del repositorio `eyequant-plugin-claude`, inicia Claude Code con:
+## Install from GitHub
+
+After the repository has been transferred to `Quantsoft1`, run:
 
 ```sh
+claude plugin marketplace add Quantsoft1/eyequant-plugin-claude
+claude plugin install eyequant@EyeQuant
+```
+
+In Claude Code, open `/mcp` and complete EyeQuant's OAuth sign-in when prompted. The connection requests `eyequant:read` and `eyequant:watchlist.write`. Watchlist changes also depend on your EyeQuant plan and require an explicit request. The remote server must support Claude Code's local OAuth callback for sign-in to complete.
+
+The skill is available as `/eyequant:eyequant`. Claude can also use it when a request is relevant.
+
+Example requests:
+
+- "Show me the current signal for NVDA."
+- "How many open signals are available in my account?"
+- "Review SPY's signal history for September."
+- "Add AAPL to my main watchlist."
+
+## Test locally
+
+From the root of this plugin repository, run:
+
+```sh
+claude plugin validate . --strict
 claude --plugin-dir .
 ```
 
-Mientras el plugin siga en `plugins/eyequant` dentro del repositorio de la aplicación, usa `claude --plugin-dir ./plugins/eyequant` desde la raíz de ese repositorio.
-
-Dentro de Claude Code, ejecuta `/mcp` y completa el inicio de sesión OAuth de EyeQuant cuando se solicite. El plugin solicita `eyequant:read` y `eyequant:watchlist.write`; los cambios de watchlists también requieren un plan que permita la operación. La habilidad queda disponible como `/eyequant:eyequant` y Claude puede activarla según la consulta. El servidor EyeQuant debe tener desplegado el cambio OAuth que acepta la URL local de retorno de Claude Code.
-
-## Instalar desde GitHub
-
-```sh
-claude plugin marketplace add cristaros/eyequant-plugin-claude
-claude plugin install eyequant@eyequant-marketplace
-```
-
-Ejemplos:
-
-- «Muéstrame la señal de NVDA».
-- «¿Cuántas señales abiertas hay en mi cuenta?».
-- «Revisa el historial de SPY durante septiembre».
-- «Agrega AAPL a mi watchlist principal».
-
-Para validar la estructura con una instalación reciente de Claude Code:
-
-```sh
-claude plugin validate .
-```
-
-En el repositorio de la aplicación, valida `./plugins/eyequant` en lugar de `.`.
-
-El plugin usa el transporte HTTP de MCP. Claude Code descubre las herramientas desde el servidor conectado; las firmas publicadas por él tienen prioridad sobre los ejemplos de la habilidad.
+While working in the EyeQuant application repository, use `./plugins/eyequant` as the plugin path. Claude discovers the current tool schemas from the connected MCP server; those schemas take precedence over examples in the skill.
