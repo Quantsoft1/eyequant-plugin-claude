@@ -1,0 +1,14 @@
+{
+  "name": "eyequant-marketplace",
+  "description": "Integraciones de EyeQuant para Claude Code",
+  "owner": {
+    "name": "cristaros"
+  },
+  "plugins": [
+    {
+      "name": "eyequant",
+      "source": "./",
+      "description": "Consulta señales cuantitativas y administra watchlists de EyeQuant"
+    }
+  ]
+}

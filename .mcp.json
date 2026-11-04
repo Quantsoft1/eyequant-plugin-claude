@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "eyequant": {
+      "type": "http",
+      "url": "https://www.eyequant.ai/mcp",
+      "oauth": {
+        "scopes": "eyequant:read eyequant:watchlist.write"
+      }
+    }
+  }
+}

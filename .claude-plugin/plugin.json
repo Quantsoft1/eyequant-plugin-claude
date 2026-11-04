@@ -1,0 +1,15 @@
+{
+  "name": "eyequant",
+  "displayName": "EyeQuant",
+  "icon": "./icon.png",
+  "version": "1.0.0",
+  "description": "Consulta señales cuantitativas y administra watchlists de EyeQuant mediante su MCP remoto.",
+  "author": {
+    "name": "EyeQuant",
+    "url": "https://www.eyequant.ai"
+  },
+  "homepage": "https://www.eyequant.ai",
+  "privacyPolicyUrl": "https://www.eyequant.ai/privacy",
+  "repository": "https://github.com/cristaros/eyequant-plugin-claude",
+  "keywords": ["eyequant", "mcp", "signals", "watchlists"]
+}
