@@ -6,14 +6,12 @@ This plugin connects Claude to EyeQuant's remote MCP server at `https://www.eyeq
 
 ## Install from GitHub
 
-While the repository is hosted under `cristaros`, run:
+The official repository is hosted under `Quantsoft1`. Run:
 
 ```sh
-claude plugin marketplace add cristaros/eyequant-plugin-claude
+claude plugin marketplace add Quantsoft1/eyequant-plugin-claude
 claude plugin install eyequant@EyeQuant
 ```
-
-After the repository is transferred to `Quantsoft1`, replace `cristaros` with `Quantsoft1` in the marketplace command and update the `repository` field in `.claude-plugin/plugin.json`.
 
 In Claude Code, open `/mcp` and complete EyeQuant's OAuth sign-in when prompted. The connection requests `eyequant:read` and `eyequant:watchlist.write`. Watchlist changes also depend on your EyeQuant plan and require an explicit request. The remote server must support Claude Code's local OAuth callback for sign-in to complete.
 

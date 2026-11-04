@@ -12,6 +12,6 @@
   "supportUrl": "https://www.eyequant.ai/landing",
   "privacyPolicyUrl": "https://www.eyequant.ai/privacy",
   "termsOfServiceUrl": "https://www.eyequant.ai/terms",
-  "repository": "https://github.com/cristaros/eyequant-plugin-claude",
+  "repository": "https://github.com/Quantsoft1/eyequant-plugin-claude",
   "keywords": ["eyequant", "mcp", "signals", "watchlists"]
 }
