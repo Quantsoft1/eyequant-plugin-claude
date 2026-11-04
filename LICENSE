@@ -1,0 +1,101 @@
+EyeQuant Claude Plugin Proprietary License
+Version 1.1
+
+Copyright (c) 2026 Quantum Software Systems SpA (trading as Quantsoft).
+All rights reserved except as expressly granted below.
+
+1. Scope and ownership
+
+This license covers the EyeQuant plugin for Claude distributed with this file,
+including its manifests, configuration, skill instructions, documentation, and
+bundled icon (the "Plugin"). Quantum Software Systems SpA ("Quantsoft") retains
+ownership of the Plugin. This is a proprietary license, not an open-source
+license. Separately identified third-party materials remain subject to their
+own licenses; this license does not replace those licenses.
+
+2. Permission to install and use
+
+Quantsoft grants each individual end user a non-exclusive, non-transferable,
+royalty-free license to download, install, load, display, and use the unmodified
+Plugin with a compatible Claude client to access EyeQuant through that user's
+own EyeQuant account. The Plugin may retrieve or change only the account data,
+signals, and watchlists that the user is authorized to access under the user's
+EyeQuant plan and the permissions granted through the connection. This license
+does not create an EyeQuant account, grant a subscription, expand account
+permissions, or authorize access to another person's account. You may make the
+copies reasonably necessary for your own installation, operation, and backup.
+You may configure the Plugin through its documented settings and the client's
+normal connection controls, but that does not permit redistribution of a
+modified copy.
+
+3. Hosting, review, and distribution through Claude
+
+Quantsoft authorizes Anthropic and its service providers acting on its behalf
+to inspect, test, reproduce, host, cache, package, display, and distribute the
+Plugin through Claude and Anthropic-operated plugin directories or marketplaces.
+This includes displaying the bundled icon and documentation to identify and
+describe the Plugin, security analysis, installation, and delivery of updates
+supplied by Quantsoft. Technical packaging changes necessary for these activities
+are permitted, provided they do not materially alter the Plugin's functionality
+or remove its legal notices. Recipients receive the end-user permissions in
+section 2. These permissions do not authorize unrelated commercial reuse.
+
+Repository hosts may exercise the rights necessary to host and deliver the
+official repository under the hosting terms accepted by Quantsoft. Nothing in
+this license withdraws viewing or forking rights separately granted under those
+terms. A fork does not by itself grant permission for modified redistribution.
+This license does not limit rights granted to Anthropic or a repository host
+under a separate agreement actually accepted by Quantsoft.
+
+4. Reserved rights and conditions
+
+Except as expressly permitted above, by a separate written authorization from
+Quantsoft, or by applicable law, you may not modify or create derivative works
+of the Plugin, redistribute it, sublicense it, sell it, or offer it as a separate
+product or service. Preserve this license and the copyright and attribution
+notices in every copy permitted by this license. Sharing a link to Quantsoft's
+official repository or an authorized Claude listing is permitted.
+
+EyeQuant and Quantsoft names, logos, and other brand assets may be displayed as
+bundled only to identify the Plugin during its authorized use or distribution.
+No permission is granted to use them to brand another product or imply a separate
+endorsement, partnership, or official status. Other trademarks belong to their
+respective owners.
+
+5. EyeQuant service and data
+
+This license covers the Plugin files only. It grants no ownership of or general
+license to EyeQuant's remote server software, models, algorithms, market data,
+signals, or other service content. Access to EyeQuant is governed separately by
+the applicable account permissions, plan, and service terms at
+https://www.eyequant.ai/terms. Privacy information is available at
+https://www.eyequant.ai/privacy. A royalty-free Plugin license does not make a
+paid EyeQuant service free or waive its access limits. This license does not
+create a subscription or authorize any charge.
+
+6. Warranties and liability
+
+To the extent permitted by applicable law, the Plugin files are provided as
+available, without warranties of error-free operation, fitness for a particular
+purpose, or compatibility with every client or future client version. Quantsoft
+does not guarantee financial results from use of the Plugin. To the extent
+permitted by applicable law, Quantsoft is not liable under this license for
+indirect or consequential losses caused by use of the Plugin. These provisions
+do not exclude mandatory consumer rights, liability that cannot lawfully be
+excluded, or express obligations under a separate service agreement.
+
+7. Breach and cessation of use
+
+Quantsoft may terminate the permissions in this license for a material breach
+after providing notice and a reasonable opportunity to remedy it where remedy
+is possible. Following termination, stop using the Plugin and delete copies
+under your control, except records required by law. Termination does not change
+mandatory legal rights or rights under a separate agreement. Ownership,
+restrictions on unauthorized redistribution, and applicable liability provisions
+continue to apply.
+
+8. Contact
+
+For additional permissions or questions about this license, contact Quantsoft
+at gestion@quantsoft.cl. Support information is available at
+https://www.eyequant.ai/landing.
